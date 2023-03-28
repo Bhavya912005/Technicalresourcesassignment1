@@ -1,0 +1,9 @@
+n=int(input("Enter the number to be rotated:"))
+k=int(input("Enter the number of times to be rotated:"))
+a=n%10**k
+b=n/10**k
+intb=int(b)
+newa=str(a)
+newb=str(intb)
+print(newa, end='')
+print(newb)
